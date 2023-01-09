@@ -315,7 +315,7 @@ with st.expander("Previous example"):
 st.subheader('Results')
 st.write("Reduce 53 compond level features to 32 and maintain the same level of model performance.")
 select_res = pd.read_csv('result_selectivity.csv')
-pEO_res = pd.read_csv('result_pEO.csv')
+pEO_res = pd.read_csv('result_PEO.csv')
 with st.expander("Model performance"):
     selected_ids = st.multiselect('Select a carrier id', select_res.id.unique())
     #if len(selected_ids) == 1:

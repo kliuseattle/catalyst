@@ -4,7 +4,7 @@ import random
 
 st.set_page_config(page_title='CatalystFeatureExplore', layout='wide')
 st.header('Make inferencing on new catalysts.')
-st.markdown("> 01/02/2023")
+st.markdown("> 01/09/2023")
 
 
 regular_dopants = ["Regular dopants", 
